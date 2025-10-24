@@ -1,9 +1,11 @@
 Termux-Native_execute-Cpuminer
 ==============
 
-WIP
-WIP
-WIP
+WIP,
+WIP,
+WIP,
+
+
 
 [![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
 
