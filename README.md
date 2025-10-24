@@ -1,4 +1,4 @@
-CPUMiner-Multi
+Termux-Native_execute-Cpuminer
 ==============
 
 [![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
