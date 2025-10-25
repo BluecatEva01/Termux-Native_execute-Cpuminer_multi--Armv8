@@ -116,7 +116,7 @@ Download
 Build
 =====
 
-#### Basic *nix build instructions:
+#### Basic  instructions:
  * just use `./build.sh`
 
 
