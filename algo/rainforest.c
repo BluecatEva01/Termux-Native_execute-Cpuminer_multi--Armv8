@@ -559,7 +559,7 @@ static inline void rf_w128(uint64_t *cell, uint64_t ofs, uint64_t x, uint64_t y)
 #if defined(__ARM_ARCH_8A) || defined(__AARCH64EL__)
   // 128 bit at once is faster when exactly two parallelizable instructions are
   // used between two calls to keep the pipe full.
-  asm volatile("stp %0, %1, [%2,#%3]\n\t"
+  asm volatile("stp %0, %1, [%2,%3]\n\t"
                : /* no output */
                : "r"(x), "r"(y), "r" (cell), "I" (ofs*8));
 #else
