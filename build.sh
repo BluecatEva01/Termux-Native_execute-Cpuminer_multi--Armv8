@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pkg install termux-keyring -y
-pkg update && pkg upgrade -y
+pkg update -y && pkg upgrade -y
 pkg install git clang make openssl curl zlib libjansson -y
 pkg install libtool automake autoconf pkg-config -y
 ./autogen.sh
