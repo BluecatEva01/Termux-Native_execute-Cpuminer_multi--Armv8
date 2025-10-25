@@ -1,14 +1,9 @@
 Termux-Native_execute-Cpuminer
 ==============
 
-#### WIP
-==========
-
-#### WIP
-==========
-
-#### WIP
-==========
+####  ```markdown
+  > ⚠️ Experimental build for Termux ARMv8 only.  
+  > Not guaranteed to work on other Android devices.
 
 
 
