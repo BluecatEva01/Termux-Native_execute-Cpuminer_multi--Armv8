@@ -4,7 +4,7 @@ Termux-Native_execute-Cpuminer
 A native ARMv8 build of [cpuminer-multi](https://github.com/tpruvot/cpuminer-multi),  
 tested and verified to compile **directly in Termux** without proot or external Linux rootfs.
 
-####  ```markdown
+####
   > ⚠️ Experimental build for Termux ARMv8 only.  
   > Not guaranteed to work on other Android devices.
   >This build disables all x86 assembly optimizations (-DNOASM)
