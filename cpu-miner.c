@@ -112,7 +112,7 @@ enum algos {
 	ALGO_PHI2,
 	ALGO_PLUCK,       /* Pluck (Supcoin) */
 	ALGO_QUBIT,       /* Qubit */
-	#ALGO_RAINFOREST,  /* RainForest */
+	ALGO_RAINFOREST,  /* RainForest */
 	ALGO_SCRYPT,      /* scrypt */
 	ALGO_SCRYPTJANE,  /* Chacha */
 	ALGO_SHAVITE3,    /* Shavite3 */
