@@ -120,6 +120,7 @@ cpuminer_SOURCES = \
   algo/zr5.c
 
 disable_flags =
+
 disable_flags += -DNOASM
 
 #if USE_ASM
