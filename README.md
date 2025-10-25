@@ -12,6 +12,14 @@ tested and verified to compile **directly in Termux** without proot or external 
   >Other ARM variants (ARMv7, ARMv9, etc.) are untested.
 
 
+##  Tested Environment
+
+- **Device:** OPPO R9s  
+- **CPU:** Qualcomm Snapdragon 625 (ARM Cortex-A53, ARMv8-A)  
+- **System:** Android 8.1  
+- **App:** Termux 0.119.0-beta.1 (AArch64)  
+
+
 
 
 
@@ -102,8 +110,6 @@ Algorithms
  * ? shavite3 (INKcoin)
  * ? __yescryptr8__ __yescryptr16__ and __yescryptr32__ variants
 
-#### Planned support for
- * *scrypt-jane* (YaCoin, CopperBars, Pennies, Tickets, etc..)
  
 Dependencies
 ============
@@ -115,9 +121,9 @@ Dependencies
 
 Download
 ========
- * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
- * Git tree:   https://github.com/tpruvot/cpuminer-multi
-   * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
+
+ * Git tree:   https://github.com/prayitworks/Termux-Native_execute-Cpuminer_multi--Armv8/tree/Termux-android-arm_v8
+   * Clone with `git clone https://github.com/prayitworks/Termux-Native_execute-Cpuminer_multi--Armv8/tree/Termux-android-arm_v8`
 
 Build
 =====
