@@ -119,9 +119,9 @@ cpuminer_SOURCES = \
   algo/yescrypt.c \
   algo/zr5.c
 
-disable_flags =
+disable_flags += -DNOASM
 
-if USE_ASM
+#if USE_ASM
    cpuminer_SOURCES += asm/neoscrypt_asm.S
 if ARCH_x86
    cpuminer_SOURCES += asm/sha2-x86.S asm/scrypt-x86.S asm/aesb-x86.S
